@@ -72,7 +72,6 @@ app.post('/api/login', function(req,res){
           });
         }
     });
-    res.sendFile('public-front/serate.html', {root: __dirname });
 });
 
 //logout utente
