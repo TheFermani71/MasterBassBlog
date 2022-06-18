@@ -72,6 +72,7 @@ app.post('/api/login', function(req,res){
           });
         }
     });
+    res.sendFile('public-front/serate.html', {root: __dirname });
 });
 
 //logout utente
@@ -95,7 +96,7 @@ app.get('/api/profile',auth,function(req,res){
 
 
 app.get('/',function(req,res){
-    res.status(200).send(`Welcome to login , sign-up api`);
+    res.status(200).send(`sei nel MsterBass server`);
 });
 
 // PORTA
