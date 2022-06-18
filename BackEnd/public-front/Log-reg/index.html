@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/styleLog.css">
+</head>
+<body>
+    <div>
+        <nav>
+            <a class="button-two" href="/FrontEnd/index.html">Home</a>
+        </nav>
+    </div>
+    <div class="wrapper">
+        <div class="form-holder">
+            <img src="img/user.png" class="logo" alt="">
+            <h2>Login</h2>
+            <form action="http://localhost:3000/api/login" method="POST" class="form">
+                <div class="form-group">
+                    <img src="img/user.png" alt="">
+                    <input name = "email" type="text" placeholder="email">
+                </div>
+                <div class="form-group">
+                    <img src="img/lock.png" alt="">
+                    <input name = "password" type="password" placeholder="password">
+                </div>
+                <div class="form-group">
+                   <button type="submit">Sign in</button> 
+                </div>
+                <div class="form-group">
+                    <a href="sign-up.html" class="right-link">Sign Up</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

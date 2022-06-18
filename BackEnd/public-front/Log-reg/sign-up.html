@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/styleLog.css">
+</head>
+<body>
+    <div>
+        <nav>
+            <a class="button-two" href="/BackEnd/public-front/index.html">Home</a>
+        </nav>
+    </div>
+    <div class="wrapper">
+        <div class="form-holder">
+            <h2>Create New account</h2>
+            <form action="http://localhost:3000/api/register"  method="POST"  class="form" >
+                <div class="form-group">
+                    <img src="img/user.png" alt="">
+                    <input name = firstname type="text" placeholder="firstname">
+                </div>
+                <div class="form-group">
+                    <img src="img/user.png" alt="">
+                    <input name = "lastname" type="text" placeholder="lastname">
+                </div>
+                <div class="form-group">
+                    <img src="img/email.png" alt="">
+                    <input name = "email" type="text" placeholder="email">
+                </div>
+                <div class="form-group">
+                    <img src="img/lock.png" alt="">
+                    <input name = "password" type="password" placeholder="password">
+                </div>
+                <div class="form-group">
+                    <img src="img/lock.png" alt="">
+                    <input name= "password2" type="password" placeholder="password2">
+                </div>
+                <div class="form-group">
+                   <button type="submit">Sign Up</button> 
+                </div>
+                <div class="form-group">
+                    <a href="/BackEnd/public-front/Log-reg/index.html" class="right-link">Sign in</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
