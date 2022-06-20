@@ -1,6 +1,6 @@
 "# MasterBass-SITE" MasterBass-SITE
 
-Descrizione:  blog MasterBass's dj + DataBase inclusoe collegato a mongoDB per la persistenza dei dati di  utenti e per il popolamento dei dati . la registrazione/login e logout.
+Descrizione:  blog MasterBass's dj + DataBase incluso e collegato a mongoDB per la persistenza dei dati di  utenti e per il popolamento dei dati . Registrazione/login e logout.
 
 Componenti/linguaggi utilizzati:
 
