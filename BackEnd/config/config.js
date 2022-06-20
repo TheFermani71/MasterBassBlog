@@ -6,7 +6,7 @@ const config={
     },
     default : {
         SECRET: 'mysecretkey',
-        DATABASE: 'mongodb+srv://alfred:alfred12@cluster0.mseob.mongodb.net/?retryWrites=true&w=majority'
+        DATABASE: 'mongodb+srv://<user>:<password>@cluster0.mseob.mongodb.net/?retryWrites=true&w=majority'
     }
 }
 
